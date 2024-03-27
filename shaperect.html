@@ -1,0 +1,31 @@
+class Shape
+{
+public void display()
+{
+System.out.println("area");
+}
+}
+class Rectangle extends Shape
+{
+public void area()
+{
+System.out.println("Area of the reactangle is:"+56);
+}
+}
+class Cube extends Rectangle
+{
+public void volume()
+{
+System.out.println("volume of rectangle"+55);
+}
+}
+class Area
+{
+public static void main(String args[])
+{
+Cube obj=new Cube();
+obj.display();
+obj.area();
+obj.volume();
+}
+}
